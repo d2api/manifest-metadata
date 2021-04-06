@@ -1,6 +1,6 @@
 import { NodeStepSummary } from "./enums/NodeStepSummary.js";
 import { TalentGrid } from "./enums/TalentGrid.js";
-export const subclassNodes = {
+export const subclassNodeHashes = {
     [TalentGrid.Stormcaller]: {
         trees: {
             top: {
@@ -12,6 +12,11 @@ export const subclassNodes = {
                     NodeStepSummary.IonicBlink,
                 ],
             },
+            middle: {
+                super: NodeStepSummary.ChaosReach,
+                melee: NodeStepSummary.BallLightning,
+                passives: [NodeStepSummary.IonicTrace, NodeStepSummary.Pulsewave],
+            },
             bottom: {
                 super: NodeStepSummary.Stormtrance,
                 melee: NodeStepSummary.RisingStorm,
@@ -20,11 +25,6 @@ export const subclassNodes = {
                     NodeStepSummary.ElectrostaticSurge,
                     NodeStepSummary.ArcSoul,
                 ],
-            },
-            middle: {
-                super: NodeStepSummary.ChaosReach,
-                melee: NodeStepSummary.BallLightning,
-                passives: [NodeStepSummary.IonicTrace, NodeStepSummary.Pulsewave],
             },
         },
         grenades: [
@@ -53,6 +53,14 @@ export const subclassNodes = {
                     NodeStepSummary.IcarusDash,
                 ],
             },
+            middle: {
+                super: NodeStepSummary.WellOfRadiance,
+                melee: NodeStepSummary.GuidingFlame,
+                passives: [
+                    NodeStepSummary.DivineProtection,
+                    NodeStepSummary.BenevolentDawn,
+                ],
+            },
             bottom: {
                 super: NodeStepSummary.Daybreak,
                 melee: NodeStepSummary.IgnitingTouch,
@@ -60,14 +68,6 @@ export const subclassNodes = {
                     NodeStepSummary.FatedForTheFlame,
                     NodeStepSummary.EverlastingFire,
                     NodeStepSummary.PhoenixDive,
-                ],
-            },
-            middle: {
-                super: NodeStepSummary.WellOfRadiance,
-                melee: NodeStepSummary.GuidingFlame,
-                passives: [
-                    NodeStepSummary.DivineProtection,
-                    NodeStepSummary.BenevolentDawn,
                 ],
             },
         },
@@ -97,6 +97,14 @@ export const subclassNodes = {
                     NodeStepSummary.VanishingStep,
                 ],
             },
+            middle: {
+                super: NodeStepSummary.SpectralBlades,
+                melee: NodeStepSummary.CorrosiveSmoke,
+                passives: [
+                    NodeStepSummary.FlawlessExecution,
+                    NodeStepSummary.ShatteringStrike,
+                ],
+            },
             bottom: {
                 super: NodeStepSummary.Shadowshot,
                 melee: NodeStepSummary.VanishInSmoke,
@@ -104,14 +112,6 @@ export const subclassNodes = {
                     NodeStepSummary.Lockdown,
                     NodeStepSummary.CombatProvision,
                     NodeStepSummary.MoebiusQuiver,
-                ],
-            },
-            middle: {
-                super: NodeStepSummary.SpectralBlades,
-                melee: NodeStepSummary.CorrosiveSmoke,
-                passives: [
-                    NodeStepSummary.FlawlessExecution,
-                    NodeStepSummary.ShatteringStrike,
                 ],
             },
         },
@@ -141,6 +141,14 @@ export const subclassNodes = {
                     NodeStepSummary.WardOfDawn,
                 ],
             },
+            middle: {
+                super: NodeStepSummary.BannerShield,
+                melee: NodeStepSummary.TacticalStrike,
+                passives: [
+                    NodeStepSummary.ControlledDemolition,
+                    NodeStepSummary.Resupply,
+                ],
+            },
             bottom: {
                 super: NodeStepSummary.SentinelShield,
                 melee: NodeStepSummary.ShieldBash,
@@ -148,14 +156,6 @@ export const subclassNodes = {
                     NodeStepSummary.SuperiorArsenal,
                     NodeStepSummary.InTheTrenches,
                     NodeStepSummary.SecondShield,
-                ],
-            },
-            middle: {
-                super: NodeStepSummary.BannerShield,
-                melee: NodeStepSummary.TacticalStrike,
-                passives: [
-                    NodeStepSummary.ControlledDemolition,
-                    NodeStepSummary.Resupply,
                 ],
             },
         },
@@ -185,6 +185,14 @@ export const subclassNodes = {
                     NodeStepSummary.VulcansRage,
                 ],
             },
+            middle: {
+                super: NodeStepSummary.BurningMaul,
+                melee: NodeStepSummary.ThrowingHammer,
+                passives: [
+                    NodeStepSummary.TirelessWarrior,
+                    NodeStepSummary.RoaringFlames,
+                ],
+            },
             bottom: {
                 super: NodeStepSummary.HammerOfSol,
                 melee: NodeStepSummary.MortarBlast,
@@ -192,14 +200,6 @@ export const subclassNodes = {
                     NodeStepSummary.SolInvictus,
                     NodeStepSummary.SunWarrior,
                     NodeStepSummary.EndlessSiege,
-                ],
-            },
-            middle: {
-                super: NodeStepSummary.BurningMaul,
-                melee: NodeStepSummary.ThrowingHammer,
-                passives: [
-                    NodeStepSummary.TirelessWarrior,
-                    NodeStepSummary.RoaringFlames,
                 ],
             },
         },
@@ -229,6 +229,14 @@ export const subclassNodes = {
                     NodeStepSummary.TerminalVelocity,
                 ],
             },
+            middle: {
+                super: NodeStepSummary.Thundercrash,
+                melee: NodeStepSummary.BallisticSlam,
+                passives: [
+                    NodeStepSummary.ImpactConversion,
+                    NodeStepSummary.InertiaOverride,
+                ],
+            },
             bottom: {
                 super: NodeStepSummary.FistsOfHavoc,
                 melee: NodeStepSummary.FrontalAssault,
@@ -236,14 +244,6 @@ export const subclassNodes = {
                     NodeStepSummary.Reversal,
                     NodeStepSummary.Knockout,
                     NodeStepSummary.Trample,
-                ],
-            },
-            middle: {
-                super: NodeStepSummary.Thundercrash,
-                melee: NodeStepSummary.BallisticSlam,
-                passives: [
-                    NodeStepSummary.ImpactConversion,
-                    NodeStepSummary.InertiaOverride,
                 ],
             },
         },
@@ -273,6 +273,11 @@ export const subclassNodes = {
                     NodeStepSummary.LethalCurrent,
                 ],
             },
+            middle: {
+                super: NodeStepSummary.WhirlwindGuard,
+                melee: NodeStepSummary.TempestStrike,
+                passives: [NodeStepSummary.LightningWeave, NodeStepSummary.EbbAndFlow],
+            },
             bottom: {
                 super: NodeStepSummary.ArcStaff,
                 melee: NodeStepSummary.DisorientingBlow,
@@ -281,11 +286,6 @@ export const subclassNodes = {
                     NodeStepSummary.CombatMeditation,
                     NodeStepSummary.LightningReflexes,
                 ],
-            },
-            middle: {
-                super: NodeStepSummary.WhirlwindGuard,
-                melee: NodeStepSummary.TempestStrike,
-                passives: [NodeStepSummary.LightningWeave, NodeStepSummary.EbbAndFlow],
             },
         },
         grenades: [
@@ -314,6 +314,14 @@ export const subclassNodes = {
                     NodeStepSummary.SixShooter,
                 ],
             },
+            middle: {
+                super: NodeStepSummary.BladeBarrage,
+                melee: NodeStepSummary.KnifeTrick,
+                passives: [
+                    NodeStepSummary.PlayingWithFire,
+                    NodeStepSummary.TheBurningEdge,
+                ],
+            },
             bottom: {
                 super: NodeStepSummary.GoldenGun,
                 melee: NodeStepSummary.WeightedKnife,
@@ -321,14 +329,6 @@ export const subclassNodes = {
                     NodeStepSummary.PracticeMakesPerfect,
                     NodeStepSummary.KnockEmDown,
                     NodeStepSummary.LineEmUp,
-                ],
-            },
-            middle: {
-                super: NodeStepSummary.BladeBarrage,
-                melee: NodeStepSummary.KnifeTrick,
-                passives: [
-                    NodeStepSummary.PlayingWithFire,
-                    NodeStepSummary.TheBurningEdge,
                 ],
             },
         },
@@ -358,6 +358,14 @@ export const subclassNodes = {
                     NodeStepSummary.Cataclysm,
                 ],
             },
+            middle: {
+                super: NodeStepSummary.NovaWarp,
+                melee: NodeStepSummary.AtomicBreach,
+                passives: [
+                    NodeStepSummary.HandheldSupernova,
+                    NodeStepSummary.DarkMatter,
+                ],
+            },
             bottom: {
                 super: NodeStepSummary.NovaBomb,
                 melee: NodeStepSummary.Devour,
@@ -365,14 +373,6 @@ export const subclassNodes = {
                     NodeStepSummary.FeedTheVoid,
                     NodeStepSummary.Insatiable,
                     NodeStepSummary.Vortex,
-                ],
-            },
-            middle: {
-                super: NodeStepSummary.NovaWarp,
-                melee: NodeStepSummary.AtomicBreach,
-                passives: [
-                    NodeStepSummary.HandheldSupernova,
-                    NodeStepSummary.DarkMatter,
                 ],
             },
         },
@@ -392,13 +392,36 @@ export const subclassNodes = {
         ],
     },
 };
-export const allMeleeNodes = Object.values(subclassNodes).flatMap((s) => Object.values(s.trees).map((t) => t.melee));
+export const allMeleeNodes = Object.values(subclassNodeHashes).flatMap((s) => Object.values(s.trees).map((t) => t.melee));
 export const allGrenadeNodes = [
-    ...new Set(Object.values(subclassNodes).flatMap((s) => s.grenades)),
+    ...new Set(Object.values(subclassNodeHashes).flatMap((s) => s.grenades)),
 ];
 export const allClassAbilityNodes = [
-    ...new Set(Object.values(subclassNodes).flatMap((s) => s.classAbilities)),
+    ...new Set(Object.values(subclassNodeHashes).flatMap((s) => s.classAbilities)),
 ];
 export const allJumpNodes = [
-    ...new Set(Object.values(subclassNodes).flatMap((s) => s.jumps)),
+    ...new Set(Object.values(subclassNodeHashes).flatMap((s) => s.jumps)),
 ];
+/** which indices to find defs at, within the `DestinyTalentGridDefinition.nodes` array */
+export const subclassNodeIndices = {
+    classAbilities: [2, 3],
+    jumps: [4, 5, 6],
+    grenades: [7, 8, 9],
+    trees: {
+        top: {
+            super: 10,
+            melee: 11,
+            passives: [12, 13, 14],
+        },
+        middle: {
+            super: 20,
+            melee: 21,
+            passives: [22, 23],
+        },
+        bottom: {
+            super: 10,
+            melee: 15,
+            passives: [16, 17, 18],
+        },
+    },
+};
