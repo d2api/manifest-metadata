@@ -396,3 +396,9 @@ export const allMeleeNodes = Object.values(subclassNodes).flatMap((s) => Object.
 export const allGrenadeNodes = [
     ...new Set(Object.values(subclassNodes).flatMap((s) => s.grenades)),
 ];
+export const allClassAbilityNodes = [
+    ...new Set(Object.values(subclassNodes).flatMap((s) => s.classAbilities)),
+];
+export const allJumpNodes = [
+    ...new Set(Object.values(subclassNodes).flatMap((s) => s.jumps)),
+];

@@ -24,3 +24,5 @@ export declare const subclassNodes: Record<TalentGrid, {
 }>;
 export declare const allMeleeNodes: NodeStepSummary[];
 export declare const allGrenadeNodes: NodeStepSummary[];
+export declare const allClassAbilityNodes: NodeStepSummary[];
+export declare const allJumpNodes: NodeStepSummary[];
