@@ -1,0 +1,8 @@
+{
+  "name": "@d2api/manifest-metadata",
+  "version": "0.0.1",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "type": "module",
+  "license": "UNLICENSED"
+}
