@@ -3,17 +3,17 @@ import { TalentGrid } from "./enums/TalentGrid.js";
 export declare const subclassNodeHashes: Record<TalentGrid, {
     trees: {
         top: {
-            super: NodeStepSummary;
+            superAbility: NodeStepSummary;
             melee: NodeStepSummary;
             passives: NodeStepSummary[];
         };
         middle: {
-            super: NodeStepSummary;
+            superAbility: NodeStepSummary;
             melee: NodeStepSummary;
             passives: NodeStepSummary[];
         };
         bottom: {
-            super: NodeStepSummary;
+            superAbility: NodeStepSummary;
             melee: NodeStepSummary;
             passives: NodeStepSummary[];
         };
@@ -33,17 +33,17 @@ export declare const subclassNodeIndices: {
     grenades: number[];
     trees: {
         top: {
-            super: number;
+            superAbility: number;
             melee: number;
             passives: number[];
         };
         middle: {
-            super: number;
+            superAbility: number;
             melee: number;
             passives: number[];
         };
         bottom: {
-            super: number;
+            superAbility: number;
             melee: number;
             passives: number[];
         };

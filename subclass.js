@@ -4,7 +4,7 @@ export const subclassNodeHashes = {
     [TalentGrid.Stormcaller]: {
         trees: {
             top: {
-                super: NodeStepSummary.Stormtrance,
+                superAbility: NodeStepSummary.Stormtrance,
                 melee: NodeStepSummary.ChainLightning,
                 passives: [
                     NodeStepSummary.Transcendence,
@@ -13,12 +13,12 @@ export const subclassNodeHashes = {
                 ],
             },
             middle: {
-                super: NodeStepSummary.ChaosReach,
+                superAbility: NodeStepSummary.ChaosReach,
                 melee: NodeStepSummary.BallLightning,
                 passives: [NodeStepSummary.IonicTrace, NodeStepSummary.Pulsewave],
             },
             bottom: {
-                super: NodeStepSummary.Stormtrance,
+                superAbility: NodeStepSummary.Stormtrance,
                 melee: NodeStepSummary.RisingStorm,
                 passives: [
                     NodeStepSummary.Landfall,
@@ -45,7 +45,7 @@ export const subclassNodeHashes = {
     [TalentGrid.Dawnblade]: {
         trees: {
             top: {
-                super: NodeStepSummary.Daybreak,
+                superAbility: NodeStepSummary.Daybreak,
                 melee: NodeStepSummary.CelestialFire,
                 passives: [
                     NodeStepSummary.WingedSun,
@@ -54,7 +54,7 @@ export const subclassNodeHashes = {
                 ],
             },
             middle: {
-                super: NodeStepSummary.WellOfRadiance,
+                superAbility: NodeStepSummary.WellOfRadiance,
                 melee: NodeStepSummary.GuidingFlame,
                 passives: [
                     NodeStepSummary.DivineProtection,
@@ -62,7 +62,7 @@ export const subclassNodeHashes = {
                 ],
             },
             bottom: {
-                super: NodeStepSummary.Daybreak,
+                superAbility: NodeStepSummary.Daybreak,
                 melee: NodeStepSummary.IgnitingTouch,
                 passives: [
                     NodeStepSummary.FatedForTheFlame,
@@ -89,7 +89,7 @@ export const subclassNodeHashes = {
     [TalentGrid.Nightstalker]: {
         trees: {
             top: {
-                super: NodeStepSummary.Shadowshot,
+                superAbility: NodeStepSummary.Shadowshot,
                 melee: NodeStepSummary.SnareBomb,
                 passives: [
                     NodeStepSummary.KeenScout,
@@ -98,7 +98,7 @@ export const subclassNodeHashes = {
                 ],
             },
             middle: {
-                super: NodeStepSummary.SpectralBlades,
+                superAbility: NodeStepSummary.SpectralBlades,
                 melee: NodeStepSummary.CorrosiveSmoke,
                 passives: [
                     NodeStepSummary.FlawlessExecution,
@@ -106,7 +106,7 @@ export const subclassNodeHashes = {
                 ],
             },
             bottom: {
-                super: NodeStepSummary.Shadowshot,
+                superAbility: NodeStepSummary.Shadowshot,
                 melee: NodeStepSummary.VanishInSmoke,
                 passives: [
                     NodeStepSummary.Lockdown,
@@ -133,7 +133,7 @@ export const subclassNodeHashes = {
     [TalentGrid.Sentinel]: {
         trees: {
             top: {
-                super: NodeStepSummary.SentinelShield,
+                superAbility: NodeStepSummary.SentinelShield,
                 melee: NodeStepSummary.DefensiveStrike,
                 passives: [
                     NodeStepSummary.RallyingForce,
@@ -142,7 +142,7 @@ export const subclassNodeHashes = {
                 ],
             },
             middle: {
-                super: NodeStepSummary.BannerShield,
+                superAbility: NodeStepSummary.BannerShield,
                 melee: NodeStepSummary.TacticalStrike,
                 passives: [
                     NodeStepSummary.ControlledDemolition,
@@ -150,7 +150,7 @@ export const subclassNodeHashes = {
                 ],
             },
             bottom: {
-                super: NodeStepSummary.SentinelShield,
+                superAbility: NodeStepSummary.SentinelShield,
                 melee: NodeStepSummary.ShieldBash,
                 passives: [
                     NodeStepSummary.SuperiorArsenal,
@@ -177,7 +177,7 @@ export const subclassNodeHashes = {
     [TalentGrid.Sunbreaker]: {
         trees: {
             top: {
-                super: NodeStepSummary.HammerOfSol,
+                superAbility: NodeStepSummary.HammerOfSol,
                 melee: NodeStepSummary.HammerStrike,
                 passives: [
                     NodeStepSummary.TemperedMetal,
@@ -186,7 +186,7 @@ export const subclassNodeHashes = {
                 ],
             },
             middle: {
-                super: NodeStepSummary.BurningMaul,
+                superAbility: NodeStepSummary.BurningMaul,
                 melee: NodeStepSummary.ThrowingHammer,
                 passives: [
                     NodeStepSummary.TirelessWarrior,
@@ -194,7 +194,7 @@ export const subclassNodeHashes = {
                 ],
             },
             bottom: {
-                super: NodeStepSummary.HammerOfSol,
+                superAbility: NodeStepSummary.HammerOfSol,
                 melee: NodeStepSummary.MortarBlast,
                 passives: [
                     NodeStepSummary.SolInvictus,
@@ -221,7 +221,7 @@ export const subclassNodeHashes = {
     [TalentGrid.Striker]: {
         trees: {
             top: {
-                super: NodeStepSummary.FistsOfHavoc,
+                superAbility: NodeStepSummary.FistsOfHavoc,
                 melee: NodeStepSummary.SeismicStrike,
                 passives: [
                     NodeStepSummary.Aftershocks,
@@ -230,7 +230,7 @@ export const subclassNodeHashes = {
                 ],
             },
             middle: {
-                super: NodeStepSummary.Thundercrash,
+                superAbility: NodeStepSummary.Thundercrash,
                 melee: NodeStepSummary.BallisticSlam,
                 passives: [
                     NodeStepSummary.ImpactConversion,
@@ -238,7 +238,7 @@ export const subclassNodeHashes = {
                 ],
             },
             bottom: {
-                super: NodeStepSummary.FistsOfHavoc,
+                superAbility: NodeStepSummary.FistsOfHavoc,
                 melee: NodeStepSummary.FrontalAssault,
                 passives: [
                     NodeStepSummary.Reversal,
@@ -265,7 +265,7 @@ export const subclassNodeHashes = {
     [TalentGrid.Arcstrider]: {
         trees: {
             top: {
-                super: NodeStepSummary.ArcStaff,
+                superAbility: NodeStepSummary.ArcStaff,
                 melee: NodeStepSummary.CombinationBlow,
                 passives: [
                     NodeStepSummary.CombatFlow,
@@ -274,12 +274,12 @@ export const subclassNodeHashes = {
                 ],
             },
             middle: {
-                super: NodeStepSummary.WhirlwindGuard,
+                superAbility: NodeStepSummary.WhirlwindGuard,
                 melee: NodeStepSummary.TempestStrike,
                 passives: [NodeStepSummary.LightningWeave, NodeStepSummary.EbbAndFlow],
             },
             bottom: {
-                super: NodeStepSummary.ArcStaff,
+                superAbility: NodeStepSummary.ArcStaff,
                 melee: NodeStepSummary.DisorientingBlow,
                 passives: [
                     NodeStepSummary.FocusedBreathing,
@@ -306,7 +306,7 @@ export const subclassNodeHashes = {
     [TalentGrid.Gunslinger]: {
         trees: {
             top: {
-                super: NodeStepSummary.GoldenGun,
+                superAbility: NodeStepSummary.GoldenGun,
                 melee: NodeStepSummary.ProximityExplosiveKnife,
                 passives: [
                     NodeStepSummary.ChainsOfWoe,
@@ -315,7 +315,7 @@ export const subclassNodeHashes = {
                 ],
             },
             middle: {
-                super: NodeStepSummary.BladeBarrage,
+                superAbility: NodeStepSummary.BladeBarrage,
                 melee: NodeStepSummary.KnifeTrick,
                 passives: [
                     NodeStepSummary.PlayingWithFire,
@@ -323,7 +323,7 @@ export const subclassNodeHashes = {
                 ],
             },
             bottom: {
-                super: NodeStepSummary.GoldenGun,
+                superAbility: NodeStepSummary.GoldenGun,
                 melee: NodeStepSummary.WeightedKnife,
                 passives: [
                     NodeStepSummary.PracticeMakesPerfect,
@@ -350,7 +350,7 @@ export const subclassNodeHashes = {
     [TalentGrid.Voidwalker]: {
         trees: {
             top: {
-                super: NodeStepSummary.NovaBomb,
+                superAbility: NodeStepSummary.NovaBomb,
                 melee: NodeStepSummary.EntropicPull,
                 passives: [
                     NodeStepSummary.ChaosAccelerant,
@@ -359,7 +359,7 @@ export const subclassNodeHashes = {
                 ],
             },
             middle: {
-                super: NodeStepSummary.NovaWarp,
+                superAbility: NodeStepSummary.NovaWarp,
                 melee: NodeStepSummary.AtomicBreach,
                 passives: [
                     NodeStepSummary.HandheldSupernova,
@@ -367,7 +367,7 @@ export const subclassNodeHashes = {
                 ],
             },
             bottom: {
-                super: NodeStepSummary.NovaBomb,
+                superAbility: NodeStepSummary.NovaBomb,
                 melee: NodeStepSummary.Devour,
                 passives: [
                     NodeStepSummary.FeedTheVoid,
@@ -409,17 +409,17 @@ export const subclassNodeIndices = {
     grenades: [7, 8, 9],
     trees: {
         top: {
-            super: 10,
+            superAbility: 10,
             melee: 11,
             passives: [12, 13, 14],
         },
         middle: {
-            super: 20,
+            superAbility: 20,
             melee: 21,
             passives: [22, 23],
         },
         bottom: {
-            super: 10,
+            superAbility: 10,
             melee: 15,
             passives: [16, 17, 18],
         },
